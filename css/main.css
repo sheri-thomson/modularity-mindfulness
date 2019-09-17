@@ -14,14 +14,36 @@ body {
 
 i {
   font-family: "Noto Sans Japanese", sans-serif;
-  display: block;
 }
 
-nav ul{
+nav ul {
   display: flex;
 }
 
-@media only screen and (min-width: 60em){
+nav li a {
+  color: #0084a6;
+}
+
+.btn {
+  color: #0084a6;
+  border: 2px solid #0084a6;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  color: #8bc9d9;
+}
+
+nav li a:hover {
+  color: #005e76;
+}
+
+hr {
+  background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
 
 
 }
