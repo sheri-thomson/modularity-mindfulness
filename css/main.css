@@ -4,35 +4,29 @@ html {
   color: #000;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-}
-
 i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-nav ul {
-  display: flex;
+.nav a {
+  color: #005e76;
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
 }
 
-nav li a {
-  color: #0084a6;
+.nav a:hover {
+  border-color: #0084a6;
 }
 
 .btn {
-  color: #0084a6;
+  color: #005e76;
   border: 2px solid #0084a6;
   border-radius: 2px;
   text-decoration: none;
 }
 
-.btn a:hover{
-  color: #8bc9d9;
+.btn:hover {
+  background-color: #8bc9d9;
 }
 
 nav li a:hover {
