@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5;
+  font: normal 100%/1.4;
   font-family: "Noto Sans", sans-serif;
   color: #000;
 }
@@ -8,6 +8,9 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
+.logo {
+  text-align: center;
+}
 .nav a {
   color: #005e76;
   text-decoration: none;
