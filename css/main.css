@@ -8,9 +8,6 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-.logo {
-  text-align: center;
-}
 .nav a {
   color: #005e76;
   text-decoration: none;
@@ -28,6 +25,11 @@ i {
   text-decoration: none;
 }
 
+.btn-ghost {
+  border: 2px solid #8bc9d9;
+  color: #005e76;
+}
+
 .btn:hover {
   background-color: #8bc9d9;
 }
@@ -42,5 +44,12 @@ hr {
 
 @media only screen and (min-width: 60em) {
 
+  nav ul {
+    text-align: right;
+  }
+
+  .wrapper {
+    max-width: 65%;
+  }
 
 }
