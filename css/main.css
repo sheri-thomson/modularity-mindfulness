@@ -10,8 +10,8 @@ i {
 
 .nav a {
   color: #005e76;
-  text-decoration: none;
   border-bottom: 2px solid #8bc9d9;
+  text-decoration: none;
 }
 
 .nav a:hover {
@@ -39,14 +39,36 @@ nav li a:hover {
   border-bottom: 2px solid #0084a6;
 }
 
-article {
-  border-top: 2px solid #e2e2e2;
-  border-bottom: 2px solid #e2e2e2;
+.logo {
+  text-align: center;
+}
+
+.intro-box {
+  border-bottom: .1em solid #e2e2e2;
+  border-top: .1em solid #e2e2e2;
+}
+
+.btn-ghost:hover {
+  background-color: #8bc9d9;
+  border-color: #005e76;
+  color: #000;
 }
 
 footer {
-  border-top: 2px solid #e2e2e2;
+  border-top: .1em solid #e2e2e2;
   color: #666;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
 
 .embed-item {
